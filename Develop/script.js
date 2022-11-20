@@ -48,6 +48,9 @@ console.log(passwordArray);
 
 
 //if every selection question gets a no/cancel, add alert to say "Please restart"
+if (specialSelect == false && numberSelect == false && uppercaseSelect == false && lowercaseSelect == false) {
+  alert("Cannot generate password. Please restart.");
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
