@@ -8,7 +8,7 @@ function generatePassword() {
   var passwordLength = "";
   var passwordArray = "";
 
-
+  //Number converts the users input into the prompt from the default string to a number primitive data type
   var length = Number(prompt("How long would you like your password to be? Must be between 8 to 128 characters long."));
   if (length < 8 || length > 128) {
     //If the user picks a number lower than 8 or higher than 128, this alert appears.
