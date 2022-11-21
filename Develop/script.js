@@ -1,8 +1,8 @@
 // Assignment code here
-var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"];
-var numberCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-var uppercaseCharacters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var lowercaseCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var specialCharacters = "!@#$%^&*()";
+var numberCharacters = "1234567890";
+var uppercaseCharacters = "QWERTYUIOPASDFGHJKLZXCVBNM";
+var lowercaseCharacters = "qwertyuiopasdfghjklzxcvbnm";
 var passwordLength = "";
 var passwordArray = "";
 
@@ -45,6 +45,14 @@ if (lowercaseSelect == true) {
 console.log(passwordArray);
 
 //create loop based on selected arrays
+var passwordTest = "";
+
+for (var i = 0; i < passwordLength; i++) {
+  var passwordChosen = Math.floor(Math.random() * passwordArray.length + 1);
+  passwordTest += passwordArray.charAt(passwordChosen);
+}
+
+console.log(passwordTest);
 
 
 //if every selection question gets a no/cancel, add alert to say "Please restart"
