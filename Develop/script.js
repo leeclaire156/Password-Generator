@@ -13,6 +13,8 @@ function generatePassword() {
   if (length < 8 || length > 128) {
     //If the user picks a number lower than 8 or higher than 128, this alert appears.
     alert("Passwords must be between 8 to 128 characters long.");
+    //In addition, the generatePassword function does not continue with the character type prompts and returns this in the password box.
+    return "Please click 'Generate Password' to try again.";
   } else {
     passwordLength = length;
   }
