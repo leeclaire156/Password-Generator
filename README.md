@@ -37,6 +37,8 @@ This project utilizes javascript to build a random password generator that creat
 
 ## Credits
 
+* Credit belongs to Myles Smith for sharing his logic approach during class for this assignment.
+
 * Credit belongs to [Grossbard1849](https://www.reddit.com/r/AskProgramming/comments/katbot/javascript_help_with_password_generator/) for exposure and usage of the addition assignment operator, which was used to streamline the confirmation dialog boxes' javascript code format. Additional understanding of the addition assignment operator was supplemented by [Mastering JS](https://masteringjs.io/tutorials/fundamentals/string-concat).
 
 * Credit belongs to [GeeksforGeeks.org](https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/) for script.js line 60 within the loop which is responsible for generating the passwordSelected variable using the addition assignment operator and, more notably, the charAt method. Additional understanding of the charAt method was supplemented by [W3Schools](https://www.w3schools.com/java/ref_string_charat.asp#:~:text=The%20charAt()%20method%20returns,is%201%2C%20and%20so%20on.).
